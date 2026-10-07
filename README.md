@@ -1,5 +1,7 @@
 # Parla — progetto per imparare l'inglese
 
+Repository GitHub: https://github.com/gabrymark06-max/inglese. Il progetto supporta anche Vercel tramite Next.js; configurazione e istruzioni in `VERCEL.md`.
+
 Applicazione funzionante in `app/`, costruita con React, TypeScript e Vinext (API e struttura Next.js) per pubblicazione su Sites/Cloudflare Workers. `RICERCA.md` conserva il progetto originario; `RICERCA-AGGIORNATA.md` aggiorna le fonti; `DESIGN.md` descrive l'identità originale.
 
 ## Avvio locale
