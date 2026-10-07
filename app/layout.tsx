@@ -1,7 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "./studio.css";
 import {Pwa} from '../components/pwa';
 
+export const viewport: Viewport = {themeColor:'#100f19'};
 export const metadata: Metadata = {
   title: "Parla — Il tuo inglese, ogni giorno",
   description: "Impara a usare l’inglese con ripasso intelligente, lettura, ascolto e conversazioni guidate. Un passo alla volta.",

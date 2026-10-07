@@ -22,3 +22,7 @@ Le prove hanno generato un profilo locale soltanto su 127.0.0.1. Nessun profilo 
 ## Aggiornamento grafica e account — 2026-10-08
 
 Build Next.js webpack e TypeScript superati. Cinque test: FSRS, validazione backup, streak, recupero della copia non sincronizzata e conflitto di revisione. Verifica browser desktop 1440px e mobile 390px senza overflow orizzontale. Lezione grammaticale completata nel browser: 1 contenuto, minuti attivi e giorno di pratica aggiornati e conservati dopo reload. Login senza configurazione mostra stato esplicito e pulsanti disabilitati. Email/Google, database RLS e sincronizzazione tra due account richiedono un progetto Supabase reale e non sono ancora verificati end-to-end; procedura in ACCOUNT-SETUP.md.
+
+## Restyling Tempra — 8 ottobre 2026
+
+Confrontate home mobile e desktop della vera Tempra. Verificati home, progressi, lettura e finestra account su 390px e desktop 1440px; nessun overflow orizzontale. Lettura completata tramite interfaccia: completamenti e minuti aggiornati, lezione successiva selezionata. Rimangono i 5 test FSRS/backup/streak/sync. Palette, input, conversazioni e icone PWA coerenti; funzionalità Supabase e istruzioni di attivazione conservate.

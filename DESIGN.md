@@ -1,12 +1,16 @@
-# Parla — English studio
+# Parla · studio di inglese
 
-## Direzione 2026-10-08
-Una palestra di conversazione espressiva e adulta: blu notte, cobalto, azzurro ghiaccio e accenti corallo. Tipografia sans geometrica, titoli compatti e decisi, superfici bianche su fondo freddo. La scena principale usa una composizione originale di fumetti e onde sonore, realizzata in CSS/SVG. Le illustrazioni rappresentano il parlare; nessun dato dimostrativo viene presentato come progresso reale.
-
-Riferimenti consultati e osservati renderizzati: Recent.design (gerarchia laterale, composizioni grafiche e contrasti), CollectUI (tipografia ampia, chiarezza delle azioni e ritmo degli spazi). Si adattano i principi al prodotto senza copiare le interfacce.
+## Direzione scelta — 8 ottobre 2026
+L’utente vuole una grafica molto simile a Tempra con colori diversi. Riferimento osservato: schermate Tempra .ui-shots/1-home.png e 1b-desktop.png e specifica Strumento. Riprendere proporzioni, densità, schede piatte, titolo Oggi, sessione con dati allineati e azione a tutta larghezza, tre indicatori, settimana a sette giorni, sidebar e barra inferiore. Tempra non viene modificata.
 
 ## Sistema
-Colori: navy #182342, cobalto #3455eb, fondo #f3f5fb, testo #202943, azzurro #dce8ff, corallo #ffb5a0. Font: sans di sistema per una resa immediata senza richieste a servizi esterni. Titoli 700–800, tracking negativo moderato; testo almeno 14px dove possibile. Raggi 16–28px, bordi sottili e ombre leggere. Sidebar scura e navigazione mobile con cinque destinazioni. Login visibile nella barra superiore, stato di sincronizzazione esplicito.
+Canvas prugna quasi nero #100f19; scheda #1b1928; superficie secondaria #252235; linea #353145; testo #eeeaf7; secondario #b1aabd; azione lavanda #b8a7ed; conferma salvia #9dceb9; avviso rosa #e6a8b7. Niente rame, sabbia, hero cobalto o fumetti. Font nativo -apple-system/BlinkMacSystemFont/system-ui, numeri tabulari, titoli 30–34px, etichette in frase normale. Raggi 16, padding 16–24, schede senza ombre, pulsanti solidi radius 14 e altezza 48. Controlli almeno 44px e focus lavanda.
 
-## Funzioni e verifica
-Preservare lezioni, FSRS, audio, import/export e progressi esistenti. Account email/Google tramite Supabase; dati protetti da RLS, nessuna service-role nel client. Salvataggi locali separati per account, conflitti segnalati invece di sovrascrivere altri dispositivi. Dashboard con obiettivo giornaliero, calendario reale e copertura dei contenuti. Controllare desktop e mobile reali, overflow, focus, contrasto e reduced motion. Login e cloud richiedono configurazione del provider: non simulare un accesso riuscito.
+## Struttura
+Home come strumento quotidiano: sessione al proprio livello, minuti desiderati, cinque attività, parole da ripassare; tre indicatori reali e settimana. Lista progressiva con completamenti e accesso diretto. Conversazione e ascolto in un tocco. Desktop con moduli larghi e ordinati, mobile compatto a colonna singola, cinque destinazioni sopra la safe area. Quiz, letture, account e impostazioni su superfici scure coerenti.
+
+## Riferimenti e interpretazione
+Osservati renderizzati i siti ufficiali Busuu e Babbel: azione primaria chiara, lingua per la vita reale e contenuti per livello. Ricerca da fonti ufficiali su Duolingo, Busuu, ELSA, British Council e Lute in RICERCA-INTERFACCE.md. Adattamento: percorso ordinato, obiettivo visibile, ripasso e situazione concreta del giorno. Nessun marchio, media o numero commerciale copiato. Consultata la raccolta personale design-resources.md; Tempra resta il riferimento visivo vincolante.
+
+## Preservazione e verifica
+Conservare FSRS, dati v1, lezioni, dialoghi, audio, backup e account. Supabase resta da attivare come concordato. Verificare desktop/mobile reali, vuoto e popolato, esercizio, login, focus, overflow e persistenza. Nessuna statistica inventata o certificazione implicita. Movimento limitato e reduced motion.

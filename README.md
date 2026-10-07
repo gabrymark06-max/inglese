@@ -52,3 +52,7 @@ Evoluzioni previste: ampliare le letture per livello, aggiungere revisione didat
 ## Account e progressi (8 ottobre 2026)
 
 Home e dashboard ridisegnate, calendario di pratica, obiettivo giornaliero e completamenti per competenza. Integrazione Supabase con link email, Google OAuth e salvataggio protetto per utente. Per attivarla segui [ACCOUNT-SETUP.md](ACCOUNT-SETUP.md): in assenza delle variabili il login è esplicitamente disabilitato. Sito pubblico: https://inglese-two.vercel.app/.
+
+## Grafica ispirata a Tempra
+
+La direzione aggiornata segue struttura e proporzioni della vera Tempra, con palette prugna/lavanda/salvia. Home compatta con sessione, tre indicatori, settimana e percorso. Ricerca su piattaforme di apprendimento in [RICERCA-INTERFACCE.md](RICERCA-INTERFACCE.md). Stili in app/studio.css; comportamento di apprendimento e account preservato.
