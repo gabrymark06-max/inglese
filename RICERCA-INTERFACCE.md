@@ -1,6 +1,6 @@
 # Ricerca di interfacce per Parla
 
-Consultata l'8 ottobre 2026. Obiettivo: trarre spunti da prodotti che insegnano lingue, mantenendo la richiesta dell'utente di un'interfaccia molto simile a Tempra con una palette propria. Sono state consultate cinque fonti primarie. Le osservazioni qui sotto derivano dalle descrizioni e dalle immagini pubblicate dai produttori; non equivalgono a una verifica di tutte le schermate degli account autenticati. Le proposte per Parla sono inferenze progettuali, non funzionalità già implementate.
+Consultata l'8 ottobre 2026. Obiettivo: trarre spunti esclusivamente da prodotti che insegnano lingue, con la grafica chiara precedente e il verde della prima versione. Sono state consultate cinque fonti primarie. Le osservazioni qui sotto derivano dalle descrizioni e dalle immagini pubblicate dai produttori; non equivalgono a una verifica di tutte le schermate degli account autenticati. Le proposte per Parla sono inferenze progettuali, non funzionalità già implementate.
 
 ## 1. Duolingo: ridurre la decisione iniziale
 
@@ -44,10 +44,10 @@ Fonte: [Lute — Manual, Introduction](https://luteorg.github.io/lute-manual/).
 
 ## Direzione grafica suggerita
 
-La somiglianza con Tempra va ricavata dal suo layout effettivo e dalle sue gerarchie: struttura dell'app, navigazione, titoli compatti, superfici piatte, rigore nei dettagli e ritmo delle sezioni. La direzione applicata a Parla è prugna scuro, lavanda e salvia: palette distinta dal rame/sabbia di Tempra. Non confondere «simile a Tempra» con un semplice cambio dei colori della versione precedente.
+La direzione ripristinata usa carta calda, verde bosco e lime. I prodotti linguistici informano chiarezza del percorso, obiettivo e pratica contestuale.
 
 Priorità di implementazione: home con un'azione dominante; percorso quotidiano ordinato; stato e obiettivo leggibili; conversazioni concrete; pagina progressi con metriche verificabili. Evitare classifiche vuote, certificati non validati, percentuali di competenza inventate e promesse di sincronizzazione prima dell'attivazione del servizio account. La ricerca non richiede di introdurre tutte le funzionalità dei prodotti analizzati.
 
 ## Osservazione diretta delle schermate
 
-Il lavoro principale ha confrontato le schermate locali renderizzate della vera Tempra (home mobile e desktop) e ha osservato nel browser le pagine pubbliche ufficiali [Busuu](https://www.busuu.com/en) e [Babbel](https://it.babbel.com/). Non si attribuisce una verifica delle aree riservate. Tempra determina materiali e proporzioni; i prodotti linguistici informano percorso, obiettivo e pratica contestuale.
+Osservate nel browser le pagine pubbliche ufficiali [Busuu](https://www.busuu.com/en) e [Babbel](https://it.babbel.com/). Non si attribuisce una verifica delle aree riservate. Le proporzioni tornano alla precedente interfaccia Parla; non si usa Tempra come riferimento.

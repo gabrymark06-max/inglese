@@ -1,16 +1,16 @@
-# Parla · studio di inglese
+# Parla · il tuo inglese, ogni giorno
 
-## Direzione scelta — 8 ottobre 2026
-L’utente vuole una grafica molto simile a Tempra con colori diversi. Riferimento osservato: schermate Tempra .ui-shots/1-home.png e 1b-desktop.png e specifica Strumento. Riprendere proporzioni, densità, schede piatte, titolo Oggi, sessione con dati allineati e azione a tutta larghezza, tre indicatori, settimana a sette giorni, sidebar e barra inferiore. Tempra non viene modificata.
+## Direzione aggiornata — 8 ottobre 2026
+Su richiesta dell’utente si ripristina la struttura chiara precedente con il verde della prima versione. Tempra non è un riferimento per questo progetto. Un quaderno contemporaneo, adulto e incoraggiante: carta calda, verde bosco e lime. L’azione principale è iniziare o continuare la sessione del proprio livello.
 
-## Sistema
-Canvas prugna quasi nero #100f19; scheda #1b1928; superficie secondaria #252235; linea #353145; testo #eeeaf7; secondario #b1aabd; azione lavanda #b8a7ed; conferma salvia #9dceb9; avviso rosa #e6a8b7. Niente rame, sabbia, hero cobalto o fumetti. Font nativo -apple-system/BlinkMacSystemFont/system-ui, numeri tabulari, titoli 30–34px, etichette in frase normale. Raggi 16, padding 16–24, schede senza ombre, pulsanti solidi radius 14 e altezza 48. Controlli almeno 44px e focus lavanda.
+## Sistema visivo
+Carta #f6f5ed, testo #203b32, verde #24483c, lime #d9ef83, lilla secondario #ddd9ef, testo secondario #647168. Titoli sans serif decisi, corpo Arial leggibile, numeri tabulari. Scala spazi 8/16/24/32/48, raggi 12–24, bordi delicati e ombre limitate. La firma è la composizione di parole, onda della voce e frase quotidiana: una promessa di conversazioni concrete.
 
-## Struttura
-Home come strumento quotidiano: sessione al proprio livello, minuti desiderati, cinque attività, parole da ripassare; tre indicatori reali e settimana. Lista progressiva con completamenti e accesso diretto. Conversazione e ascolto in un tocco. Desktop con moduli larghi e ordinati, mobile compatto a colonna singola, cinque destinazioni sopra la safe area. Quiz, letture, account e impostazioni su superfici scure coerenti.
+## Struttura e mobile
+Ripristinare hero espressivo, percorso di cinque attività, progresso reale e accesso al riascolto. Sidebar verde su desktop; cinque destinazioni nella barra inferiore su mobile. Pannelli di apprendimento chiari, azione dominante, testi italiani leggibili e controlli almeno 44px. Account email/Google predisposti, dichiaratamente da attivare. Conservare dati, FSRS, audio, lezioni e sincronizzazione predisposta.
 
-## Riferimenti e interpretazione
-Osservati renderizzati i siti ufficiali Busuu e Babbel: azione primaria chiara, lingua per la vita reale e contenuti per livello. Ricerca da fonti ufficiali su Duolingo, Busuu, ELSA, British Council e Lute in RICERCA-INTERFACCE.md. Adattamento: percorso ordinato, obiettivo visibile, ripasso e situazione concreta del giorno. Nessun marchio, media o numero commerciale copiato. Consultata la raccolta personale design-resources.md; Tempra resta il riferimento visivo vincolante.
+## Riferimenti pertinenti
+Osservate nel browser le pagine pubbliche ufficiali Busuu e Babbel: chiarezza dell’azione, contenuti orientati alla vita reale e gerarchia tra messaggio e percorso. Ricerca primaria documentata in RICERCA-INTERFACCE.md su Duolingo (percorso guidato), Busuu (obiettivo modificabile), ELSA (scenari), British Council (ascolta e pratica), Lute (parole nel contesto). Queste sono interpretazioni per Parla, senza copiare marchi, media o esercizi. Consultata la raccolta personale design-resources.md; per questa revisione si usano esclusivamente prodotti linguistici come ispirazione.
 
-## Preservazione e verifica
-Conservare FSRS, dati v1, lezioni, dialoghi, audio, backup e account. Supabase resta da attivare come concordato. Verificare desktop/mobile reali, vuoto e popolato, esercizio, login, focus, overflow e persistenza. Nessuna statistica inventata o certificazione implicita. Movimento limitato e reduced motion.
+## Verifica
+Controllare schermate effettive desktop e telefono, assenza di overflow, navigazione, esercizi, progressi vuoti e popolati, dialogo account e persistenza. Focus evidente e reduced motion; nessuna percentuale di competenza o punteggio di pronuncia inventato.

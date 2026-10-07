@@ -26,3 +26,12 @@ Build Next.js webpack e TypeScript superati. Cinque test: FSRS, validazione back
 ## Restyling Tempra — 8 ottobre 2026
 
 Confrontate home mobile e desktop della vera Tempra. Verificati home, progressi, lettura e finestra account su 390px e desktop 1440px; nessun overflow orizzontale. Lettura completata tramite interfaccia: completamenti e minuti aggiornati, lezione successiva selezionata. Rimangono i 5 test FSRS/backup/streak/sync. Palette, input, conversazioni e icone PWA coerenti; funzionalità Supabase e istruzioni di attivazione conservate.
+
+
+## Ripristino verde (8 ottobre 2026)
+
+Ripristinati layout e componenti della versione precedente al restyling Tempra; palette carta, verde bosco e lime della prima versione. Nessuna modifica ai dati o ai servizi account. Rimossi TodayStudio e studio.css; manifest, icone e cache PWA aggiornati.
+
+Build Next.js con controllo TypeScript riuscita. Cinque test esistenti superati: FSRS/backup, validazione, serie di giorni, recupero cache con revisioni e conflitti.
+
+Verifica nel browser: home desktop 1440px e mobile 390px, progressi popolati ancora presenti (due attivita completate, un giorno, 0.7 minuti), calendario e obiettivo, biblioteca, dialogo account con Google/email disabilitati e spiegazione corretta. Nessun overflow orizzontale su home e progressi. Supabase resta da attivare come concordato; nessuna autenticazione reale dichiarata.
