@@ -1,20 +1,12 @@
-# Parla — design del progetto
+# Parla — English studio
 
-Pubblico: persone italiane che vogliono usare l'inglese nella vita quotidiana. Azione principale: iniziare e completare una breve sessione, con pratica attiva e feedback.
+## Direzione 2026-10-08
+Una palestra di conversazione espressiva e adulta: blu notte, cobalto, azzurro ghiaccio e accenti corallo. Tipografia sans geometrica, titoli compatti e decisi, superfici bianche su fondo freddo. La scena principale usa una composizione originale di fumetti e onde sonore, realizzata in CSS/SVG. Le illustrazioni rappresentano il parlare; nessun dato dimostrativo viene presentato come progresso reale.
 
-## Direzione
-Un quaderno di viaggio contemporaneo: verde bosco, carta calda, lime e dettagli lilla. Identità espressiva, adulta e incoraggiante. Nessun dato simulato. La firma visiva è un sole tipografico composto da piccoli segni, accanto a una frase inglese da usare oggi.
+Riferimenti consultati e osservati renderizzati: Recent.design (gerarchia laterale, composizioni grafiche e contrasti), CollectUI (tipografia ampia, chiarezza delle azioni e ritmo degli spazi). Si adattano i principi al prodotto senza copiare le interfacce.
 
-- Carta #f6f5ed, inchiostro #203b32, verde #24483c, lime #d9ef83, lilla #ddd9ef, grigio #647168.
-- Titoli: Georgia, serif editoriale; testi e interfaccia: sistema sans-serif. Numeri tabulari.
-- Navigazione laterale sul desktop; barra inferiore a cinque destinazioni sul telefono, con strumenti nelle impostazioni.
-- Sessione in evidenza, attività in righe di altezza diversa e progressi reali. Spaziatura 4/8/12/16/24/32/48/64.
-- Pulsanti almeno 44 px, focus visibile, contrasto leggibile, riduzione del movimento, nessuna attività soltanto vocale.
-- Mobile: singola colonna, titoli fluidi, nessun testo tagliato; pannelli esercizi nel flusso con chiusura e ritorno.
+## Sistema
+Colori: navy #182342, cobalto #3455eb, fondo #f3f5fb, testo #202943, azzurro #dce8ff, corallo #ffb5a0. Font: sans di sistema per una resa immediata senza richieste a servizi esterni. Titoli 700–800, tracking negativo moderato; testo almeno 14px dove possibile. Raggi 16–28px, bordi sottili e ombre leggere. Sidebar scura e navigazione mobile con cinque destinazioni. Login visibile nella barra superiore, stato di sincronizzazione esplicito.
 
-## Riferimenti osservati prima dell'implementazione
-- https://recent.design/: schermata renderizzata, navigazione sobria e gerarchia editoriale; non riutilizzati media.
-- https://styles.refero.design/: galleria renderizzata e anteprima Superr: taccuino su carta calda, forte contrasto dei titoli. Interpretazione per Parla: apprendimento come pratica personale, con un'identità verde originale.
-
-## Verifica
-Verificare schermate desktop e telefono, stato iniziale, completamento esercizi, persistenza, navigazione da tastiera e assenza di overflow. Salvare il resoconto in VERIFICA.md.
+## Funzioni e verifica
+Preservare lezioni, FSRS, audio, import/export e progressi esistenti. Account email/Google tramite Supabase; dati protetti da RLS, nessuna service-role nel client. Salvataggi locali separati per account, conflitti segnalati invece di sovrascrivere altri dispositivi. Dashboard con obiettivo giornaliero, calendario reale e copertura dei contenuti. Controllare desktop e mobile reali, overflow, focus, contrasto e reduced motion. Login e cloud richiedono configurazione del provider: non simulare un accesso riuscito.

@@ -2,7 +2,7 @@
 
 Repository GitHub: https://github.com/gabrymark06-max/inglese. Il progetto supporta anche Vercel tramite Next.js; configurazione e istruzioni in `VERCEL.md`.
 
-Applicazione funzionante in `app/`, costruita con React, TypeScript e Vinext (API e struttura Next.js) per pubblicazione su Sites/Cloudflare Workers. `RICERCA.md` conserva il progetto originario; `RICERCA-AGGIORNATA.md` aggiorna le fonti; `DESIGN.md` descrive l'identità originale.
+Applicazione funzionante in `app/`, costruita con React, TypeScript e Vinext (API e struttura Next.js) per pubblicazione su Sites/Cloudflare Workers. `RICERCA.md` conserva il progetto originario; `RICERCA-AGGIORNATA.md` aggiorna le fonti; `DESIGN.md` descrive la nuova identità English studio.
 
 ## Avvio locale
 
@@ -48,3 +48,7 @@ I progressi sono locali, separati per browser/dispositivo: account e sincronizza
 I livelli assegnati ai contenuti sono orientativi; questo materiale iniziale non costituisce un corso completo A1–C2. NGSL derivata resta separata in `lib/ngsl.json`, CC BY-SA 4.0 con attribuzione in `public/attribution.md`. Nessun asset di terzi o modello grafico è stato copiato. Gli esempi didattici sono originali. Tatoeba non è stato importato per evitare licenze audio non verificate per singola registrazione.
 
 Evoluzioni previste: ampliare le letture per livello, aggiungere revisione didattica umana, sincronizzazione autenticata, servizio di trascrizione uniforme e valutazione fonetica validata. Lo stack Vinext mantiene la struttura Next.js del progetto iniziale, adattando il deployment a Sites.
+
+## Account e progressi (8 ottobre 2026)
+
+Home e dashboard ridisegnate, calendario di pratica, obiettivo giornaliero e completamenti per competenza. Integrazione Supabase con link email, Google OAuth e salvataggio protetto per utente. Per attivarla segui [ACCOUNT-SETUP.md](ACCOUNT-SETUP.md): in assenza delle variabili il login è esplicitamente disabilitato. Sito pubblico: https://inglese-two.vercel.app/.

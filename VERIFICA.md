@@ -18,3 +18,7 @@ Registrazione e dettatura non esercitate con un microfono fisico: permessi e dis
 
 ## Dati di prova
 Le prove hanno generato un profilo locale soltanto su 127.0.0.1. Nessun profilo o progresso di esempio viene distribuito agli utenti. Le statistiche del sito pubblicato partono da zero.
+
+## Aggiornamento grafica e account — 2026-10-08
+
+Build Next.js webpack e TypeScript superati. Cinque test: FSRS, validazione backup, streak, recupero della copia non sincronizzata e conflitto di revisione. Verifica browser desktop 1440px e mobile 390px senza overflow orizzontale. Lezione grammaticale completata nel browser: 1 contenuto, minuti attivi e giorno di pratica aggiornati e conservati dopo reload. Login senza configurazione mostra stato esplicito e pulsanti disabilitati. Email/Google, database RLS e sincronizzazione tra due account richiedono un progetto Supabase reale e non sono ancora verificati end-to-end; procedura in ACCOUNT-SETUP.md.
